@@ -15,7 +15,8 @@ body {
   box-shadow: 1px 1px 3px 1px rgba(30, 30, 30, 0.5);
   cursor: pointer;
   outline: none;
-  transition: .4s;
+  transition: .5s ease;
+  letter-spacing: .7px;
 
   &:hover {
     background: rgba(101, 3, 67, 0.87);
@@ -23,4 +24,13 @@ body {
   }
 }
 
+@mixin header() {
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 250px;
+}
+
 @import './Header/Header';
+@import './TestForm/TestForm';
