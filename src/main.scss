@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+@mixin btn() {
+  margin: 20px;
+  height: 40px;
+  width: 200px;
+  border: none;
+  background: rgba(101, 3, 67, 0.77);
+  border-radius: 3px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  box-shadow: 1px 1px 3px 1px rgba(30, 30, 30, 0.5);
+  cursor: pointer;
+  outline: none;
+  transition: .4s;
+
+  &:hover {
+    background: rgba(101, 3, 67, 0.87);
+    box-shadow: 1.5px 1.5px 5px 1px rgba(30, 30, 30, 0.45);
+  }
+}
+
+@import './Header/Header';
