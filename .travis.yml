@@ -1,17 +1,17 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
 cache:
   directories:
-    - node_modules
+  - node_modules
 script:
-  - npm test
-  - npm run build
+- npm test
+- npm run build
 deploy:
   provider: heroku
   api_key:
-    secure: POZEVZ7mNwqAo1Ts6XjUVoQsQFdVPYus2d0VaYI1K...itGoesOnForAWhile
-  app: travis-test-penguins
+    secure: dHOrTCa+7Or+dD228AiuvItv3owAso2vD1HjohEVkaBn2pmzTnzXzzgqqSPrWkE+JIT6PR+hAWaohbMhnziHV8oOdPoGeQASlVBwVDNmgjDSA4/wxNXhHpLY0Rk5yOuvFRLRWVoqy63522VRN/0TAuvZD2EB9OQuDL750X/dUiTlCOzn9zwDQyuW7OFObhcQsskSkgheGnQ2O7lWk04FKoyFO3tuEhaYyXbqi1hY46WjMiCQat6jXtaxhG47WlV8ldaI5uWB/sTKrCUyBoWCKlv7jgF3EqqLA9dS07hmBbIvkKLRfwjZl3MfrVpJC3vxkDKtcpcjEkikKz0GPyBqnQqCN5EVIpEh5AdQGOjjQ81DEBc/lUnlNQMudwi/jUp5WHcLrSDsUQrSv9jH7dpgeWf0a/C6JrUvu3kMNe0puskNMBpLxDUonuxNZoyl9tDCGkR1HJSHgmPFqav/kUfOr0VN+K4L9gIy4nFyqe7w3MNAR70LEK1A9M8L7pk2GvYhcfJ/Ix7JpdMwJW/GOnrAjNk5lMQ6nWR2OO0m+lctlxIywraNio2N6l8aBQqj3F/fJdwwbfAB+iOmDUE49qSRfl7+mSkeFwMCfNfwuPo7OcYAcDT/Pb7Kxqtav3I+C8NVj+Cm2N8DEhSD9vBXg8EQAw0YSOktrhVBVYvlhX7dwoc=
+  app: nc-wines
   skip_cleanup: true
 on:
   branch: master
