@@ -1,0 +1,30 @@
+.endpoint {
+
+  h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    background: #8b2f6a;
+    width: 75%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 15px;
+    color: white;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    clear: both;
+  }
+}
+
+.endpt-info {
+  width: 85%;
+  float: right;
+  clear: both;
+  height: 300px;
+  background: rgba(101, 3, 67, 0.2);
+  margin-top: -15px;
+  margin-bottom: 50px;
+  border-bottom-left-radius: 30px;
+  position: relative;
+  z-index: 1;
+}

@@ -76,10 +76,10 @@ export default class TestForm extends Component {
             value={idSelector}
             onChange={(e) => this.updateValue(e, 'idSelector')}
           />
-          <label htmlFor="queryselect">Or do you already know the vineyard you're looking for?</label>
+          <label className={`${isDisabled && 'disabled'}`} htmlFor="queryselect">Or do you already know the vineyard you're looking for?</label>
           <select
             id="queryselect"
-            className="query-selector"
+            className={`query-selector ${isDisabled && 'disabled'}`}
             value={querySelector}
             disabled={isDisabled}
             onChange={(e) => this.updateValue(e, 'querySelector')}
@@ -90,6 +90,7 @@ export default class TestForm extends Component {
           </select>
           <input
             type="text"
+            className={`${isDisabled && 'disabled'}`}
             placeholder="Search for a vineyard by name or region"
             value={querySearch}
             disabled={isDisabled}
