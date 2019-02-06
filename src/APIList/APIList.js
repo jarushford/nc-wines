@@ -74,7 +74,7 @@ export default function APIList() {
       />
       <Endpoint
         method="PUT" 
-        title="/api/v1/wines/:vineyard_id" 
+        title="/api/v1/wines/:id" 
         description="Edits an existing wine."
         returned="Object with ID of updated wine"
         required="Object with the parameters you wish to update"
