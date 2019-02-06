@@ -83,7 +83,7 @@ ShallowWrapper {
           method="PUT"
           required="Object with the parameters you wish to update"
           returned="Object with ID of updated wine"
-          title="/api/v1/wines/:vineyard_id"
+          title="/api/v1/wines/:id"
         />,
         <Endpoint
           description="Deletes an existing wine."
@@ -237,7 +237,7 @@ ShallowWrapper {
           "method": "PUT",
           "required": "Object with the parameters you wish to update",
           "returned": "Object with ID of updated wine",
-          "title": "/api/v1/wines/:vineyard_id",
+          "title": "/api/v1/wines/:id",
         },
         "ref": null,
         "rendered": null,
@@ -332,7 +332,7 @@ ShallowWrapper {
             method="PUT"
             required="Object with the parameters you wish to update"
             returned="Object with ID of updated wine"
-            title="/api/v1/wines/:vineyard_id"
+            title="/api/v1/wines/:id"
           />,
           <Endpoint
             description="Deletes an existing wine."
@@ -486,7 +486,7 @@ ShallowWrapper {
             "method": "PUT",
             "required": "Object with the parameters you wish to update",
             "returned": "Object with ID of updated wine",
-            "title": "/api/v1/wines/:vineyard_id",
+            "title": "/api/v1/wines/:id",
           },
           "ref": null,
           "rendered": null,
