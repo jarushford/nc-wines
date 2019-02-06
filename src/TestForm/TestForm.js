@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactJson from 'react-json-view'
 
 export default class TestForm extends Component {
   constructor() {
@@ -8,7 +9,8 @@ export default class TestForm extends Component {
       idSelector: '',
       baseUrl: `https://buildyourownbackendcodysara.herokuapp.com/api/v1/`,
       querySelector: '',
-      querySearch: ''
+      querySearch: '',
+      data: {}
     }
   }
 
@@ -16,8 +18,20 @@ export default class TestForm extends Component {
     this.setState({ [value]: e.target.value })
   }
 
+  makeRequest = async (e) => {
+    e.preventDefault()
+    const url = e.target.firstElementChild.value
+    const response = await fetch(url)
+    if (response.ok) {
+      const result = await response.json()
+      this.setState({ data: result })
+    } else {
+      this.setState({ data: { error: 'Error fetching data' } })
+    }
+  }
+
   render() {
-    const { mainSelector, idSelector, baseUrl, querySelector, querySearch } = this.state
+    const { mainSelector, idSelector, baseUrl, querySelector, querySearch, data } = this.state
     let fullUrl = baseUrl + mainSelector + '/' + idSelector
     let maxID
 
@@ -29,22 +43,28 @@ export default class TestForm extends Component {
 
     return (
       <section className="test-form-section">
-        <h2>Test An Endpoint</h2>
-        <form onSubmit={(e) => e.preventDefault()}>
+        <h2>Try Getting Data</h2>
+        <form className="data-input" onSubmit={(e) => e.preventDefault()}>
+          <label htmlFor="main">What would you like to search?</label>
           <select
+            id="main"
             className="main-selector"
             onChange={(e) => this.updateValue(e, 'mainSelector')}
           >
             <option value="vineyards">Vineyards</option>
             <option value="wines">Wines</option>
           </select>
+          <label htmlFor="id">Try using an ID to get a specific record:</label>
           <input
+            id="id"
             type="number"
             min={1}
             max={maxID}
             onChange={(e) => this.updateValue(e, 'idSelector')}
           />
+          <label htmlFor="queryselect">Do you already know what you're looking for?</label>
           <select
+            id="queryselect"
             className="query-selector"
             onChange={(e) => this.updateValue(e, 'querySelector')}
           >
@@ -59,10 +79,13 @@ export default class TestForm extends Component {
             onChange={(e) => this.updateValue(e, 'querySearch')} 
           />
         </form>
-        <form>
-          <input type="text" value={fullUrl} />
+        <form className="submit-request" onSubmit={(e) => this.makeRequest(e)}>
+          <input type="text" value={fullUrl} readOnly />
           <button>Test</button>
+          <p>This may take a few moments, your data will be displayed below when finished.</p>
         </form>
+        <h3>Output</h3>
+        <ReactJson src={data} />
       </section>
     )
   }
