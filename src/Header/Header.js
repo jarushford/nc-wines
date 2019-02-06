@@ -11,7 +11,7 @@ export default function Header() {
         Test Endpoints
       </button>
       <button
-        onClick={() => window.scrollTo({ top: 1000, behavior: 'smooth' })}
+        onClick={() => window.scrollTo({ top: 1900, behavior: 'smooth' })}
       >
         Available Endpoints
       </button>
