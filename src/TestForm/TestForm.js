@@ -58,7 +58,7 @@ export default class TestForm extends Component {
 
     mainSelector === 'vineyards' ? maxID = 30 : maxID = 90
     mainSelector === 'vineyards' ? isDisabled = false : isDisabled = true
-    loading ? loadText = 'Loading' : loadText = 'Test'
+    loading ? loadText = 'Loading...' : loadText = 'Test'
 
     return (
       <section className="test-form-section">
