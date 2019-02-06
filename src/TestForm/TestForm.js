@@ -10,7 +10,8 @@ export default class TestForm extends Component {
       baseUrl: `https://buildyourownbackendcodysara.herokuapp.com/api/v1/`,
       querySelector: '',
       querySearch: '',
-      data: {}
+      data: {},
+      loading: false
     }
   }
 
@@ -33,21 +34,23 @@ export default class TestForm extends Component {
 
   makeRequest = async (e) => {
     e.preventDefault()
+    this.setState({ loading: true })
     const url = e.target.firstElementChild.value
     const response = await fetch(url)
     if (response.ok) {
       const result = await response.json()
-      this.setState({ data: result })
+      this.setState({ data: result, loading: false })
     } else {
-      this.setState({ data: { error: response.statusText } })
+      this.setState({ data: { error: response.statusText, loading: false } })
     }
   }
 
   render() {
-    const { mainSelector, idSelector, baseUrl, querySelector, querySearch, data } = this.state
+    const { mainSelector, idSelector, baseUrl, querySelector, querySearch, data, loading } = this.state
     let fullUrl = baseUrl + mainSelector + '/' + idSelector
     let maxID
     let isDisabled
+    let loadText
 
     if (querySelector !== '' && idSelector === '') {
       fullUrl += querySelector + querySearch
@@ -55,6 +58,7 @@ export default class TestForm extends Component {
 
     mainSelector === 'vineyards' ? maxID = 30 : maxID = 90
     mainSelector === 'vineyards' ? isDisabled = false : isDisabled = true
+    loading ? loadText = 'Loading' : loadText = 'Test'
 
     return (
       <section className="test-form-section">
@@ -99,7 +103,7 @@ export default class TestForm extends Component {
         </form>
         <form className="submit-request" onSubmit={(e) => this.makeRequest(e)}>
           <input type="text" value={fullUrl} readOnly />
-          <button>Test</button>
+          <button className={`${loading && 'loading'}`}>{loadText}</button>
           <p>This may take a few moments, your data will be displayed below when finished.</p>
         </form>
         <h3>Output</h3>

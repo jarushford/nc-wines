@@ -59,6 +59,19 @@ button {
   @include btn;
 }
 
+.loading {
+  animation: load 2s ease infinite;
+}
+
+@keyframes load {
+  0%, 100% {
+    color: white;
+  }
+  50% {
+    color: rgba(101, 3, 67, 0.27);
+  }
+}
+
 .disabled {
   height: 0;
   margin: 0;
