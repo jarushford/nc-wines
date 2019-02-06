@@ -4,14 +4,14 @@ body {
 
 @mixin btn() {
   margin: 20px;
-  height: 40px;
-  width: 200px;
+  height: 50px;
+  width: 250px;
   border: none;
   background: rgba(101, 3, 67, 0.77);
   border-radius: 3px;
   color: white;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   box-shadow: 1px 1px 3px 1px rgba(30, 30, 30, 0.5);
   cursor: pointer;
   outline: none;
@@ -28,11 +28,10 @@ body {
   font-family: 'Satisfy', cursive;
   font-size: 2.4rem;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 300px;
 }
 
 @import './Header/Header';
 @import './TestForm/TestForm';
-@import './APIList/APIList';
 @import './Endpoint/Endpoint';
