@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Endpoint should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Endpoint
+    description="Returns a single vineyard."
+    method="GET"
+    required="N/A"
+    returned="Object"
+    title="/api/v1/vineyards/:id"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          GET
+            
+          /api/v1/vineyards/:id
+        </h1>,
+        <div
+          className="endpt-info"
+        >
+          <p>
+            Returns a single vineyard.
+          </p>
+          <h4>
+            Returned Value: 
+            Object
+          </h4>
+          <h4>
+            Required body for request: 
+            N/A
+          </h4>
+        </div>,
+      ],
+      "className": "endpoint",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "GET",
+            "  ",
+            "/api/v1/vineyards/:id",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "GET",
+          "  ",
+          "/api/v1/vineyards/:id",
+        ],
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Returns a single vineyard.
+            </p>,
+            <h4>
+              Returned Value: 
+              Object
+            </h4>,
+            <h4>
+              Required body for request: 
+              N/A
+            </h4>,
+          ],
+          "className": "endpt-info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Returns a single vineyard.",
+            },
+            "ref": null,
+            "rendered": "Returns a single vineyard.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Returned Value: ",
+                "Object",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Returned Value: ",
+              "Object",
+            ],
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Required body for request: ",
+                "N/A",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Required body for request: ",
+              "N/A",
+            ],
+            "type": "h4",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            GET
+              
+            /api/v1/vineyards/:id
+          </h1>,
+          <div
+            className="endpt-info"
+          >
+            <p>
+              Returns a single vineyard.
+            </p>
+            <h4>
+              Returned Value: 
+              Object
+            </h4>
+            <h4>
+              Required body for request: 
+              N/A
+            </h4>
+          </div>,
+        ],
+        "className": "endpoint",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "GET",
+              "  ",
+              "/api/v1/vineyards/:id",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "GET",
+            "  ",
+            "/api/v1/vineyards/:id",
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Returns a single vineyard.
+              </p>,
+              <h4>
+                Returned Value: 
+                Object
+              </h4>,
+              <h4>
+                Required body for request: 
+                N/A
+              </h4>,
+            ],
+            "className": "endpt-info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Returns a single vineyard.",
+              },
+              "ref": null,
+              "rendered": "Returns a single vineyard.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Returned Value: ",
+                  "Object",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Returned Value: ",
+                "Object",
+              ],
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Required body for request: ",
+                  "N/A",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Required body for request: ",
+                "N/A",
+              ],
+              "type": "h4",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,536 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APIList should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <APIList />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Available Endpoints
+        </h2>,
+        <Endpoint
+          description="Returns an array of all vineyards. This endpoint can also be modified with 'name' and 'region' query parameters to search more specifically."
+          method="GET"
+          required="N/A"
+          returned="Array"
+          title="/api/v1/vineyards"
+        />,
+        <Endpoint
+          description="Returns a single vineyard."
+          method="GET"
+          required="N/A"
+          returned="Object"
+          title="/api/v1/vineyards/:id"
+        />,
+        <Endpoint
+          description="Creates a new vineyard."
+          method="POST"
+          required="{ name: <String>, address: <String>, website: <String>, phone: <String>, region: <String> }"
+          returned="Object with ID of new vineyard"
+          title="/api/v1/vineyards/"
+        />,
+        <Endpoint
+          description="Edits an exisiting vineyard."
+          method="PUT"
+          required="Object with the parameters you wish to update"
+          returned="Object with ID of updated vineyard"
+          title="/api/v1/vineyards/:id"
+        />,
+        <Endpoint
+          description="Deletes an existing vineyard."
+          method="DELETE"
+          required="N/A"
+          returned="Object with ID of deleted vineyard"
+          title="/api/v1/vineyards/:id"
+        />,
+        <Endpoint
+          description="Returns an array of all wines."
+          method="GET"
+          required="N/A"
+          returned="Array"
+          title="/api/v1/wines"
+        />,
+        <Endpoint
+          description="Returns a single wine."
+          method="GET"
+          required="N/A"
+          returned="Object"
+          title="/api/v1/wines/:id"
+        />,
+        <Endpoint
+          description="Creates a new wine."
+          method="POST"
+          required="{ name: <String>, type: <String>, color: <String>, vineyard_id: <Number> }"
+          returned="Object with ID of new wine"
+          title="/api/v1/wines"
+        />,
+        <Endpoint
+          description="Edits an existing wine."
+          method="PUT"
+          required="Object with the parameters you wish to update"
+          returned="Object with ID of updated wine"
+          title="/api/v1/wines/:vineyard_id"
+        />,
+        <Endpoint
+          description="Deletes an existing wine."
+          method="DELETE"
+          required="N/A"
+          returned="Object with ID of deleted wine"
+          title="/api/v1/wines/:id"
+        />,
+      ],
+      "className": "api-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Available Endpoints",
+        },
+        "ref": null,
+        "rendered": "Available Endpoints",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Returns an array of all vineyards. This endpoint can also be modified with 'name' and 'region' query parameters to search more specifically.",
+          "method": "GET",
+          "required": "N/A",
+          "returned": "Array",
+          "title": "/api/v1/vineyards",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Returns a single vineyard.",
+          "method": "GET",
+          "required": "N/A",
+          "returned": "Object",
+          "title": "/api/v1/vineyards/:id",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Creates a new vineyard.",
+          "method": "POST",
+          "required": "{ name: <String>, address: <String>, website: <String>, phone: <String>, region: <String> }",
+          "returned": "Object with ID of new vineyard",
+          "title": "/api/v1/vineyards/",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Edits an exisiting vineyard.",
+          "method": "PUT",
+          "required": "Object with the parameters you wish to update",
+          "returned": "Object with ID of updated vineyard",
+          "title": "/api/v1/vineyards/:id",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Deletes an existing vineyard.",
+          "method": "DELETE",
+          "required": "N/A",
+          "returned": "Object with ID of deleted vineyard",
+          "title": "/api/v1/vineyards/:id",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Returns an array of all wines.",
+          "method": "GET",
+          "required": "N/A",
+          "returned": "Array",
+          "title": "/api/v1/wines",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Returns a single wine.",
+          "method": "GET",
+          "required": "N/A",
+          "returned": "Object",
+          "title": "/api/v1/wines/:id",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Creates a new wine.",
+          "method": "POST",
+          "required": "{ name: <String>, type: <String>, color: <String>, vineyard_id: <Number> }",
+          "returned": "Object with ID of new wine",
+          "title": "/api/v1/wines",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Edits an existing wine.",
+          "method": "PUT",
+          "required": "Object with the parameters you wish to update",
+          "returned": "Object with ID of updated wine",
+          "title": "/api/v1/wines/:vineyard_id",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "Deletes an existing wine.",
+          "method": "DELETE",
+          "required": "N/A",
+          "returned": "Object with ID of deleted wine",
+          "title": "/api/v1/wines/:id",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Available Endpoints
+          </h2>,
+          <Endpoint
+            description="Returns an array of all vineyards. This endpoint can also be modified with 'name' and 'region' query parameters to search more specifically."
+            method="GET"
+            required="N/A"
+            returned="Array"
+            title="/api/v1/vineyards"
+          />,
+          <Endpoint
+            description="Returns a single vineyard."
+            method="GET"
+            required="N/A"
+            returned="Object"
+            title="/api/v1/vineyards/:id"
+          />,
+          <Endpoint
+            description="Creates a new vineyard."
+            method="POST"
+            required="{ name: <String>, address: <String>, website: <String>, phone: <String>, region: <String> }"
+            returned="Object with ID of new vineyard"
+            title="/api/v1/vineyards/"
+          />,
+          <Endpoint
+            description="Edits an exisiting vineyard."
+            method="PUT"
+            required="Object with the parameters you wish to update"
+            returned="Object with ID of updated vineyard"
+            title="/api/v1/vineyards/:id"
+          />,
+          <Endpoint
+            description="Deletes an existing vineyard."
+            method="DELETE"
+            required="N/A"
+            returned="Object with ID of deleted vineyard"
+            title="/api/v1/vineyards/:id"
+          />,
+          <Endpoint
+            description="Returns an array of all wines."
+            method="GET"
+            required="N/A"
+            returned="Array"
+            title="/api/v1/wines"
+          />,
+          <Endpoint
+            description="Returns a single wine."
+            method="GET"
+            required="N/A"
+            returned="Object"
+            title="/api/v1/wines/:id"
+          />,
+          <Endpoint
+            description="Creates a new wine."
+            method="POST"
+            required="{ name: <String>, type: <String>, color: <String>, vineyard_id: <Number> }"
+            returned="Object with ID of new wine"
+            title="/api/v1/wines"
+          />,
+          <Endpoint
+            description="Edits an existing wine."
+            method="PUT"
+            required="Object with the parameters you wish to update"
+            returned="Object with ID of updated wine"
+            title="/api/v1/wines/:vineyard_id"
+          />,
+          <Endpoint
+            description="Deletes an existing wine."
+            method="DELETE"
+            required="N/A"
+            returned="Object with ID of deleted wine"
+            title="/api/v1/wines/:id"
+          />,
+        ],
+        "className": "api-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Available Endpoints",
+          },
+          "ref": null,
+          "rendered": "Available Endpoints",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Returns an array of all vineyards. This endpoint can also be modified with 'name' and 'region' query parameters to search more specifically.",
+            "method": "GET",
+            "required": "N/A",
+            "returned": "Array",
+            "title": "/api/v1/vineyards",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Returns a single vineyard.",
+            "method": "GET",
+            "required": "N/A",
+            "returned": "Object",
+            "title": "/api/v1/vineyards/:id",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Creates a new vineyard.",
+            "method": "POST",
+            "required": "{ name: <String>, address: <String>, website: <String>, phone: <String>, region: <String> }",
+            "returned": "Object with ID of new vineyard",
+            "title": "/api/v1/vineyards/",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Edits an exisiting vineyard.",
+            "method": "PUT",
+            "required": "Object with the parameters you wish to update",
+            "returned": "Object with ID of updated vineyard",
+            "title": "/api/v1/vineyards/:id",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Deletes an existing vineyard.",
+            "method": "DELETE",
+            "required": "N/A",
+            "returned": "Object with ID of deleted vineyard",
+            "title": "/api/v1/vineyards/:id",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Returns an array of all wines.",
+            "method": "GET",
+            "required": "N/A",
+            "returned": "Array",
+            "title": "/api/v1/wines",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Returns a single wine.",
+            "method": "GET",
+            "required": "N/A",
+            "returned": "Object",
+            "title": "/api/v1/wines/:id",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Creates a new wine.",
+            "method": "POST",
+            "required": "{ name: <String>, type: <String>, color: <String>, vineyard_id: <Number> }",
+            "returned": "Object with ID of new wine",
+            "title": "/api/v1/wines",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Edits an existing wine.",
+            "method": "PUT",
+            "required": "Object with the parameters you wish to update",
+            "returned": "Object with ID of updated wine",
+            "title": "/api/v1/wines/:vineyard_id",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "Deletes an existing wine.",
+            "method": "DELETE",
+            "required": "N/A",
+            "returned": "Object with ID of deleted wine",
+            "title": "/api/v1/wines/:id",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

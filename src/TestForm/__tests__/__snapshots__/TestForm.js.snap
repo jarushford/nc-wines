@@ -1,0 +1,4413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestForm should match the snapshot in default state 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TestForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Try Getting Data
+        </h2>,
+        <form
+          className="data-input"
+          onSubmit={[Function]}
+        >
+          <label
+            htmlFor="main"
+          >
+            What would you like to search?
+          </label>
+          <select
+            className="main-selector"
+            id="main"
+            onChange={[Function]}
+          >
+            <option
+              value="vineyards"
+            >
+              Vineyards
+            </option>
+            <option
+              value="wines"
+            >
+              Wines
+            </option>
+          </select>
+          <label
+            htmlFor="id"
+          >
+            Try using an ID from 
+            1-30
+             to get a specific record:
+          </label>
+          <input
+            id="id"
+            onChange={[Function]}
+            type="number"
+            value=""
+          />
+          <label
+            className="false"
+            htmlFor="queryselect"
+          >
+            Or do you already know the vineyard you're looking for?
+          </label>
+          <select
+            className="query-selector false"
+            disabled={false}
+            id="queryselect"
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              value=""
+            >
+              --
+            </option>
+            <option
+              value="?name="
+            >
+              name
+            </option>
+            <option
+              value="?region="
+            >
+              region
+            </option>
+          </select>
+          <input
+            className="query-search false"
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Search for a vineyard by name or region"
+            type="text"
+            value=""
+          />
+        </form>,
+        <form
+          className="submit-request"
+          onSubmit={[Function]}
+        >
+          <input
+            readOnly={true}
+            type="text"
+            value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+          />
+          <button
+            className="false"
+          >
+            Test
+          </button>
+          <p>
+            This may take a few moments, your data will be displayed below when finished.
+          </p>
+        </form>,
+        <h3>
+          Output
+        </h3>,
+        <t
+          collapseStringsAfterLength={false}
+          collapsed={false}
+          defaultValue={null}
+          displayDataTypes={true}
+          displayObjectSize={true}
+          enableClipboard={true}
+          groupArraysAfterLength={100}
+          iconStyle="triangle"
+          indentWidth={4}
+          name="root"
+          onAdd={false}
+          onDelete={false}
+          onEdit={false}
+          onSelect={false}
+          shouldCollapse={false}
+          sortKeys={false}
+          src={Object {}}
+          style={Object {}}
+          theme="rjv-default"
+          validationMessage="Validation Error"
+        />,
+      ],
+      "className": "test-form-section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Try Getting Data",
+        },
+        "ref": null,
+        "rendered": "Try Getting Data",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>,
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>,
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-30
+               to get a specific record:
+            </label>,
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />,
+            <label
+              className="false"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>,
+            <select
+              className="query-selector false"
+              disabled={false}
+              id="queryselect"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>,
+            <input
+              className="query-search false"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />,
+          ],
+          "className": "data-input",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What would you like to search?",
+              "htmlFor": "main",
+            },
+            "ref": null,
+            "rendered": "What would you like to search?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>,
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>,
+              ],
+              "className": "main-selector",
+              "id": "main",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vineyards",
+                  "value": "vineyards",
+                },
+                "ref": null,
+                "rendered": "Vineyards",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Wines",
+                  "value": "wines",
+                },
+                "ref": null,
+                "rendered": "Wines",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Try using an ID from ",
+                "1-30",
+                " to get a specific record:",
+              ],
+              "htmlFor": "id",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Try using an ID from ",
+              "1-30",
+              " to get a specific record:",
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "id",
+              "onChange": [Function],
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Or do you already know the vineyard you're looking for?",
+              "className": "false",
+              "htmlFor": "queryselect",
+            },
+            "ref": null,
+            "rendered": "Or do you already know the vineyard you're looking for?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value=""
+                >
+                  --
+                </option>,
+                <option
+                  value="?name="
+                >
+                  name
+                </option>,
+                <option
+                  value="?region="
+                >
+                  region
+                </option>,
+              ],
+              "className": "query-selector false",
+              "disabled": false,
+              "id": "queryselect",
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "--",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "--",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "name",
+                  "value": "?name=",
+                },
+                "ref": null,
+                "rendered": "name",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "region",
+                  "value": "?region=",
+                },
+                "ref": null,
+                "rendered": "region",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "query-search false",
+              "disabled": false,
+              "onChange": [Function],
+              "placeholder": "Search for a vineyard by name or region",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+            />,
+            <button
+              className="false"
+            >
+              Test
+            </button>,
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>,
+          ],
+          "className": "submit-request",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "readOnly": true,
+              "type": "text",
+              "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test",
+              "className": "false",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This may take a few moments, your data will be displayed below when finished.",
+            },
+            "ref": null,
+            "rendered": "This may take a few moments, your data will be displayed below when finished.",
+            "type": "p",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Output",
+        },
+        "ref": null,
+        "rendered": "Output",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "collapseStringsAfterLength": false,
+          "collapsed": false,
+          "defaultValue": null,
+          "displayDataTypes": true,
+          "displayObjectSize": true,
+          "enableClipboard": true,
+          "groupArraysAfterLength": 100,
+          "iconStyle": "triangle",
+          "indentWidth": 4,
+          "name": "root",
+          "onAdd": false,
+          "onDelete": false,
+          "onEdit": false,
+          "onSelect": false,
+          "shouldCollapse": false,
+          "sortKeys": false,
+          "src": Object {},
+          "style": Object {},
+          "theme": "rjv-default",
+          "validationMessage": "Validation Error",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Try Getting Data
+          </h2>,
+          <form
+            className="data-input"
+            onSubmit={[Function]}
+          >
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-30
+               to get a specific record:
+            </label>
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />
+            <label
+              className="false"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>
+            <select
+              className="query-selector false"
+              disabled={false}
+              id="queryselect"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>
+            <input
+              className="query-search false"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />
+          </form>,
+          <form
+            className="submit-request"
+            onSubmit={[Function]}
+          >
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+            />
+            <button
+              className="false"
+            >
+              Test
+            </button>
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>
+          </form>,
+          <h3>
+            Output
+          </h3>,
+          <t
+            collapseStringsAfterLength={false}
+            collapsed={false}
+            defaultValue={null}
+            displayDataTypes={true}
+            displayObjectSize={true}
+            enableClipboard={true}
+            groupArraysAfterLength={100}
+            iconStyle="triangle"
+            indentWidth={4}
+            name="root"
+            onAdd={false}
+            onDelete={false}
+            onEdit={false}
+            onSelect={false}
+            shouldCollapse={false}
+            sortKeys={false}
+            src={Object {}}
+            style={Object {}}
+            theme="rjv-default"
+            validationMessage="Validation Error"
+          />,
+        ],
+        "className": "test-form-section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Try Getting Data",
+          },
+          "ref": null,
+          "rendered": "Try Getting Data",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="main"
+              >
+                What would you like to search?
+              </label>,
+              <select
+                className="main-selector"
+                id="main"
+                onChange={[Function]}
+              >
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>
+              </select>,
+              <label
+                htmlFor="id"
+              >
+                Try using an ID from 
+                1-30
+                 to get a specific record:
+              </label>,
+              <input
+                id="id"
+                onChange={[Function]}
+                type="number"
+                value=""
+              />,
+              <label
+                className="false"
+                htmlFor="queryselect"
+              >
+                Or do you already know the vineyard you're looking for?
+              </label>,
+              <select
+                className="query-selector false"
+                disabled={false}
+                id="queryselect"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  --
+                </option>
+                <option
+                  value="?name="
+                >
+                  name
+                </option>
+                <option
+                  value="?region="
+                >
+                  region
+                </option>
+              </select>,
+              <input
+                className="query-search false"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Search for a vineyard by name or region"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "data-input",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What would you like to search?",
+                "htmlFor": "main",
+              },
+              "ref": null,
+              "rendered": "What would you like to search?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="vineyards"
+                  >
+                    Vineyards
+                  </option>,
+                  <option
+                    value="wines"
+                  >
+                    Wines
+                  </option>,
+                ],
+                "className": "main-selector",
+                "id": "main",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vineyards",
+                    "value": "vineyards",
+                  },
+                  "ref": null,
+                  "rendered": "Vineyards",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wines",
+                    "value": "wines",
+                  },
+                  "ref": null,
+                  "rendered": "Wines",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Try using an ID from ",
+                  "1-30",
+                  " to get a specific record:",
+                ],
+                "htmlFor": "id",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Try using an ID from ",
+                "1-30",
+                " to get a specific record:",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "id",
+                "onChange": [Function],
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Or do you already know the vineyard you're looking for?",
+                "className": "false",
+                "htmlFor": "queryselect",
+              },
+              "ref": null,
+              "rendered": "Or do you already know the vineyard you're looking for?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value=""
+                  >
+                    --
+                  </option>,
+                  <option
+                    value="?name="
+                  >
+                    name
+                  </option>,
+                  <option
+                    value="?region="
+                  >
+                    region
+                  </option>,
+                ],
+                "className": "query-selector false",
+                "disabled": false,
+                "id": "queryselect",
+                "onChange": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "--",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": "--",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "name",
+                    "value": "?name=",
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "region",
+                    "value": "?region=",
+                  },
+                  "ref": null,
+                  "rendered": "region",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "query-search false",
+                "disabled": false,
+                "onChange": [Function],
+                "placeholder": "Search for a vineyard by name or region",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                readOnly={true}
+                type="text"
+                value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+              />,
+              <button
+                className="false"
+              >
+                Test
+              </button>,
+              <p>
+                This may take a few moments, your data will be displayed below when finished.
+              </p>,
+            ],
+            "className": "submit-request",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "readOnly": true,
+                "type": "text",
+                "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+                "className": "false",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This may take a few moments, your data will be displayed below when finished.",
+              },
+              "ref": null,
+              "rendered": "This may take a few moments, your data will be displayed below when finished.",
+              "type": "p",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Output",
+          },
+          "ref": null,
+          "rendered": "Output",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "collapseStringsAfterLength": false,
+            "collapsed": false,
+            "defaultValue": null,
+            "displayDataTypes": true,
+            "displayObjectSize": true,
+            "enableClipboard": true,
+            "groupArraysAfterLength": 100,
+            "iconStyle": "triangle",
+            "indentWidth": 4,
+            "name": "root",
+            "onAdd": false,
+            "onDelete": false,
+            "onEdit": false,
+            "onSelect": false,
+            "shouldCollapse": false,
+            "sortKeys": false,
+            "src": Object {},
+            "style": Object {},
+            "theme": "rjv-default",
+            "validationMessage": "Validation Error",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`TestForm should match the snapshot while loading 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TestForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Try Getting Data
+        </h2>,
+        <form
+          className="data-input"
+          onSubmit={[Function]}
+        >
+          <label
+            htmlFor="main"
+          >
+            What would you like to search?
+          </label>
+          <select
+            className="main-selector"
+            id="main"
+            onChange={[Function]}
+          >
+            <option
+              value="vineyards"
+            >
+              Vineyards
+            </option>
+            <option
+              value="wines"
+            >
+              Wines
+            </option>
+          </select>
+          <label
+            htmlFor="id"
+          >
+            Try using an ID from 
+            1-30
+             to get a specific record:
+          </label>
+          <input
+            id="id"
+            onChange={[Function]}
+            type="number"
+            value=""
+          />
+          <label
+            className="false"
+            htmlFor="queryselect"
+          >
+            Or do you already know the vineyard you're looking for?
+          </label>
+          <select
+            className="query-selector false"
+            disabled={false}
+            id="queryselect"
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              value=""
+            >
+              --
+            </option>
+            <option
+              value="?name="
+            >
+              name
+            </option>
+            <option
+              value="?region="
+            >
+              region
+            </option>
+          </select>
+          <input
+            className="query-search false"
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Search for a vineyard by name or region"
+            type="text"
+            value=""
+          />
+        </form>,
+        <form
+          className="submit-request"
+          onSubmit={[Function]}
+        >
+          <input
+            readOnly={true}
+            type="text"
+            value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+          />
+          <button
+            className="loading"
+          >
+            Loading...
+          </button>
+          <p>
+            This may take a few moments, your data will be displayed below when finished.
+          </p>
+        </form>,
+        <h3>
+          Output
+        </h3>,
+        <t
+          collapseStringsAfterLength={false}
+          collapsed={false}
+          defaultValue={null}
+          displayDataTypes={true}
+          displayObjectSize={true}
+          enableClipboard={true}
+          groupArraysAfterLength={100}
+          iconStyle="triangle"
+          indentWidth={4}
+          name="root"
+          onAdd={false}
+          onDelete={false}
+          onEdit={false}
+          onSelect={false}
+          shouldCollapse={false}
+          sortKeys={false}
+          src={Object {}}
+          style={Object {}}
+          theme="rjv-default"
+          validationMessage="Validation Error"
+        />,
+      ],
+      "className": "test-form-section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Try Getting Data",
+        },
+        "ref": null,
+        "rendered": "Try Getting Data",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>,
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>,
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-30
+               to get a specific record:
+            </label>,
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />,
+            <label
+              className="false"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>,
+            <select
+              className="query-selector false"
+              disabled={false}
+              id="queryselect"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>,
+            <input
+              className="query-search false"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />,
+          ],
+          "className": "data-input",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What would you like to search?",
+              "htmlFor": "main",
+            },
+            "ref": null,
+            "rendered": "What would you like to search?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>,
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>,
+              ],
+              "className": "main-selector",
+              "id": "main",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vineyards",
+                  "value": "vineyards",
+                },
+                "ref": null,
+                "rendered": "Vineyards",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Wines",
+                  "value": "wines",
+                },
+                "ref": null,
+                "rendered": "Wines",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Try using an ID from ",
+                "1-30",
+                " to get a specific record:",
+              ],
+              "htmlFor": "id",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Try using an ID from ",
+              "1-30",
+              " to get a specific record:",
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "id",
+              "onChange": [Function],
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Or do you already know the vineyard you're looking for?",
+              "className": "false",
+              "htmlFor": "queryselect",
+            },
+            "ref": null,
+            "rendered": "Or do you already know the vineyard you're looking for?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value=""
+                >
+                  --
+                </option>,
+                <option
+                  value="?name="
+                >
+                  name
+                </option>,
+                <option
+                  value="?region="
+                >
+                  region
+                </option>,
+              ],
+              "className": "query-selector false",
+              "disabled": false,
+              "id": "queryselect",
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "--",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "--",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "name",
+                  "value": "?name=",
+                },
+                "ref": null,
+                "rendered": "name",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "region",
+                  "value": "?region=",
+                },
+                "ref": null,
+                "rendered": "region",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "query-search false",
+              "disabled": false,
+              "onChange": [Function],
+              "placeholder": "Search for a vineyard by name or region",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+            />,
+            <button
+              className="loading"
+            >
+              Loading...
+            </button>,
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>,
+          ],
+          "className": "submit-request",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "readOnly": true,
+              "type": "text",
+              "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Loading...",
+              "className": "loading",
+            },
+            "ref": null,
+            "rendered": "Loading...",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This may take a few moments, your data will be displayed below when finished.",
+            },
+            "ref": null,
+            "rendered": "This may take a few moments, your data will be displayed below when finished.",
+            "type": "p",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Output",
+        },
+        "ref": null,
+        "rendered": "Output",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "collapseStringsAfterLength": false,
+          "collapsed": false,
+          "defaultValue": null,
+          "displayDataTypes": true,
+          "displayObjectSize": true,
+          "enableClipboard": true,
+          "groupArraysAfterLength": 100,
+          "iconStyle": "triangle",
+          "indentWidth": 4,
+          "name": "root",
+          "onAdd": false,
+          "onDelete": false,
+          "onEdit": false,
+          "onSelect": false,
+          "shouldCollapse": false,
+          "sortKeys": false,
+          "src": Object {},
+          "style": Object {},
+          "theme": "rjv-default",
+          "validationMessage": "Validation Error",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Try Getting Data
+          </h2>,
+          <form
+            className="data-input"
+            onSubmit={[Function]}
+          >
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-30
+               to get a specific record:
+            </label>
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />
+            <label
+              className="false"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>
+            <select
+              className="query-selector false"
+              disabled={false}
+              id="queryselect"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>
+            <input
+              className="query-search false"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />
+          </form>,
+          <form
+            className="submit-request"
+            onSubmit={[Function]}
+          >
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+            />
+            <button
+              className="loading"
+            >
+              Loading...
+            </button>
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>
+          </form>,
+          <h3>
+            Output
+          </h3>,
+          <t
+            collapseStringsAfterLength={false}
+            collapsed={false}
+            defaultValue={null}
+            displayDataTypes={true}
+            displayObjectSize={true}
+            enableClipboard={true}
+            groupArraysAfterLength={100}
+            iconStyle="triangle"
+            indentWidth={4}
+            name="root"
+            onAdd={false}
+            onDelete={false}
+            onEdit={false}
+            onSelect={false}
+            shouldCollapse={false}
+            sortKeys={false}
+            src={Object {}}
+            style={Object {}}
+            theme="rjv-default"
+            validationMessage="Validation Error"
+          />,
+        ],
+        "className": "test-form-section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Try Getting Data",
+          },
+          "ref": null,
+          "rendered": "Try Getting Data",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="main"
+              >
+                What would you like to search?
+              </label>,
+              <select
+                className="main-selector"
+                id="main"
+                onChange={[Function]}
+              >
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>
+              </select>,
+              <label
+                htmlFor="id"
+              >
+                Try using an ID from 
+                1-30
+                 to get a specific record:
+              </label>,
+              <input
+                id="id"
+                onChange={[Function]}
+                type="number"
+                value=""
+              />,
+              <label
+                className="false"
+                htmlFor="queryselect"
+              >
+                Or do you already know the vineyard you're looking for?
+              </label>,
+              <select
+                className="query-selector false"
+                disabled={false}
+                id="queryselect"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  --
+                </option>
+                <option
+                  value="?name="
+                >
+                  name
+                </option>
+                <option
+                  value="?region="
+                >
+                  region
+                </option>
+              </select>,
+              <input
+                className="query-search false"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Search for a vineyard by name or region"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "data-input",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What would you like to search?",
+                "htmlFor": "main",
+              },
+              "ref": null,
+              "rendered": "What would you like to search?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="vineyards"
+                  >
+                    Vineyards
+                  </option>,
+                  <option
+                    value="wines"
+                  >
+                    Wines
+                  </option>,
+                ],
+                "className": "main-selector",
+                "id": "main",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vineyards",
+                    "value": "vineyards",
+                  },
+                  "ref": null,
+                  "rendered": "Vineyards",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wines",
+                    "value": "wines",
+                  },
+                  "ref": null,
+                  "rendered": "Wines",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Try using an ID from ",
+                  "1-30",
+                  " to get a specific record:",
+                ],
+                "htmlFor": "id",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Try using an ID from ",
+                "1-30",
+                " to get a specific record:",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "id",
+                "onChange": [Function],
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Or do you already know the vineyard you're looking for?",
+                "className": "false",
+                "htmlFor": "queryselect",
+              },
+              "ref": null,
+              "rendered": "Or do you already know the vineyard you're looking for?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value=""
+                  >
+                    --
+                  </option>,
+                  <option
+                    value="?name="
+                  >
+                    name
+                  </option>,
+                  <option
+                    value="?region="
+                  >
+                    region
+                  </option>,
+                ],
+                "className": "query-selector false",
+                "disabled": false,
+                "id": "queryselect",
+                "onChange": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "--",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": "--",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "name",
+                    "value": "?name=",
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "region",
+                    "value": "?region=",
+                  },
+                  "ref": null,
+                  "rendered": "region",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "query-search false",
+                "disabled": false,
+                "onChange": [Function],
+                "placeholder": "Search for a vineyard by name or region",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                readOnly={true}
+                type="text"
+                value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/"
+              />,
+              <button
+                className="loading"
+              >
+                Loading...
+              </button>,
+              <p>
+                This may take a few moments, your data will be displayed below when finished.
+              </p>,
+            ],
+            "className": "submit-request",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "readOnly": true,
+                "type": "text",
+                "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Loading...",
+                "className": "loading",
+              },
+              "ref": null,
+              "rendered": "Loading...",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This may take a few moments, your data will be displayed below when finished.",
+              },
+              "ref": null,
+              "rendered": "This may take a few moments, your data will be displayed below when finished.",
+              "type": "p",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Output",
+          },
+          "ref": null,
+          "rendered": "Output",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "collapseStringsAfterLength": false,
+            "collapsed": false,
+            "defaultValue": null,
+            "displayDataTypes": true,
+            "displayObjectSize": true,
+            "enableClipboard": true,
+            "groupArraysAfterLength": 100,
+            "iconStyle": "triangle",
+            "indentWidth": 4,
+            "name": "root",
+            "onAdd": false,
+            "onDelete": false,
+            "onEdit": false,
+            "onSelect": false,
+            "shouldCollapse": false,
+            "sortKeys": false,
+            "src": Object {},
+            "style": Object {},
+            "theme": "rjv-default",
+            "validationMessage": "Validation Error",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`TestForm should match the snapshot with a querySelector 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TestForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Try Getting Data
+        </h2>,
+        <form
+          className="data-input"
+          onSubmit={[Function]}
+        >
+          <label
+            htmlFor="main"
+          >
+            What would you like to search?
+          </label>
+          <select
+            className="main-selector"
+            id="main"
+            onChange={[Function]}
+          >
+            <option
+              value="vineyards"
+            >
+              Vineyards
+            </option>
+            <option
+              value="wines"
+            >
+              Wines
+            </option>
+          </select>
+          <label
+            htmlFor="id"
+          >
+            Try using an ID from 
+            1-30
+             to get a specific record:
+          </label>
+          <input
+            id="id"
+            onChange={[Function]}
+            type="number"
+            value=""
+          />
+          <label
+            className="false"
+            htmlFor="queryselect"
+          >
+            Or do you already know the vineyard you're looking for?
+          </label>
+          <select
+            className="query-selector false"
+            disabled={false}
+            id="queryselect"
+            onChange={[Function]}
+            value="name"
+          >
+            <option
+              value=""
+            >
+              --
+            </option>
+            <option
+              value="?name="
+            >
+              name
+            </option>
+            <option
+              value="?region="
+            >
+              region
+            </option>
+          </select>
+          <input
+            className="query-search false"
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Search for a vineyard by name or region"
+            type="text"
+            value=""
+          />
+        </form>,
+        <form
+          className="submit-request"
+          onSubmit={[Function]}
+        >
+          <input
+            readOnly={true}
+            type="text"
+            value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/name"
+          />
+          <button
+            className="false"
+          >
+            Test
+          </button>
+          <p>
+            This may take a few moments, your data will be displayed below when finished.
+          </p>
+        </form>,
+        <h3>
+          Output
+        </h3>,
+        <t
+          collapseStringsAfterLength={false}
+          collapsed={false}
+          defaultValue={null}
+          displayDataTypes={true}
+          displayObjectSize={true}
+          enableClipboard={true}
+          groupArraysAfterLength={100}
+          iconStyle="triangle"
+          indentWidth={4}
+          name="root"
+          onAdd={false}
+          onDelete={false}
+          onEdit={false}
+          onSelect={false}
+          shouldCollapse={false}
+          sortKeys={false}
+          src={Object {}}
+          style={Object {}}
+          theme="rjv-default"
+          validationMessage="Validation Error"
+        />,
+      ],
+      "className": "test-form-section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Try Getting Data",
+        },
+        "ref": null,
+        "rendered": "Try Getting Data",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>,
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>,
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-30
+               to get a specific record:
+            </label>,
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />,
+            <label
+              className="false"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>,
+            <select
+              className="query-selector false"
+              disabled={false}
+              id="queryselect"
+              onChange={[Function]}
+              value="name"
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>,
+            <input
+              className="query-search false"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />,
+          ],
+          "className": "data-input",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What would you like to search?",
+              "htmlFor": "main",
+            },
+            "ref": null,
+            "rendered": "What would you like to search?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>,
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>,
+              ],
+              "className": "main-selector",
+              "id": "main",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vineyards",
+                  "value": "vineyards",
+                },
+                "ref": null,
+                "rendered": "Vineyards",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Wines",
+                  "value": "wines",
+                },
+                "ref": null,
+                "rendered": "Wines",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Try using an ID from ",
+                "1-30",
+                " to get a specific record:",
+              ],
+              "htmlFor": "id",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Try using an ID from ",
+              "1-30",
+              " to get a specific record:",
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "id",
+              "onChange": [Function],
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Or do you already know the vineyard you're looking for?",
+              "className": "false",
+              "htmlFor": "queryselect",
+            },
+            "ref": null,
+            "rendered": "Or do you already know the vineyard you're looking for?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value=""
+                >
+                  --
+                </option>,
+                <option
+                  value="?name="
+                >
+                  name
+                </option>,
+                <option
+                  value="?region="
+                >
+                  region
+                </option>,
+              ],
+              "className": "query-selector false",
+              "disabled": false,
+              "id": "queryselect",
+              "onChange": [Function],
+              "value": "name",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "--",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "--",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "name",
+                  "value": "?name=",
+                },
+                "ref": null,
+                "rendered": "name",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "region",
+                  "value": "?region=",
+                },
+                "ref": null,
+                "rendered": "region",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "query-search false",
+              "disabled": false,
+              "onChange": [Function],
+              "placeholder": "Search for a vineyard by name or region",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/name"
+            />,
+            <button
+              className="false"
+            >
+              Test
+            </button>,
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>,
+          ],
+          "className": "submit-request",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "readOnly": true,
+              "type": "text",
+              "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test",
+              "className": "false",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This may take a few moments, your data will be displayed below when finished.",
+            },
+            "ref": null,
+            "rendered": "This may take a few moments, your data will be displayed below when finished.",
+            "type": "p",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Output",
+        },
+        "ref": null,
+        "rendered": "Output",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "collapseStringsAfterLength": false,
+          "collapsed": false,
+          "defaultValue": null,
+          "displayDataTypes": true,
+          "displayObjectSize": true,
+          "enableClipboard": true,
+          "groupArraysAfterLength": 100,
+          "iconStyle": "triangle",
+          "indentWidth": 4,
+          "name": "root",
+          "onAdd": false,
+          "onDelete": false,
+          "onEdit": false,
+          "onSelect": false,
+          "shouldCollapse": false,
+          "sortKeys": false,
+          "src": Object {},
+          "style": Object {},
+          "theme": "rjv-default",
+          "validationMessage": "Validation Error",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Try Getting Data
+          </h2>,
+          <form
+            className="data-input"
+            onSubmit={[Function]}
+          >
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-30
+               to get a specific record:
+            </label>
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />
+            <label
+              className="false"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>
+            <select
+              className="query-selector false"
+              disabled={false}
+              id="queryselect"
+              onChange={[Function]}
+              value="name"
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>
+            <input
+              className="query-search false"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />
+          </form>,
+          <form
+            className="submit-request"
+            onSubmit={[Function]}
+          >
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/name"
+            />
+            <button
+              className="false"
+            >
+              Test
+            </button>
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>
+          </form>,
+          <h3>
+            Output
+          </h3>,
+          <t
+            collapseStringsAfterLength={false}
+            collapsed={false}
+            defaultValue={null}
+            displayDataTypes={true}
+            displayObjectSize={true}
+            enableClipboard={true}
+            groupArraysAfterLength={100}
+            iconStyle="triangle"
+            indentWidth={4}
+            name="root"
+            onAdd={false}
+            onDelete={false}
+            onEdit={false}
+            onSelect={false}
+            shouldCollapse={false}
+            sortKeys={false}
+            src={Object {}}
+            style={Object {}}
+            theme="rjv-default"
+            validationMessage="Validation Error"
+          />,
+        ],
+        "className": "test-form-section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Try Getting Data",
+          },
+          "ref": null,
+          "rendered": "Try Getting Data",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="main"
+              >
+                What would you like to search?
+              </label>,
+              <select
+                className="main-selector"
+                id="main"
+                onChange={[Function]}
+              >
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>
+              </select>,
+              <label
+                htmlFor="id"
+              >
+                Try using an ID from 
+                1-30
+                 to get a specific record:
+              </label>,
+              <input
+                id="id"
+                onChange={[Function]}
+                type="number"
+                value=""
+              />,
+              <label
+                className="false"
+                htmlFor="queryselect"
+              >
+                Or do you already know the vineyard you're looking for?
+              </label>,
+              <select
+                className="query-selector false"
+                disabled={false}
+                id="queryselect"
+                onChange={[Function]}
+                value="name"
+              >
+                <option
+                  value=""
+                >
+                  --
+                </option>
+                <option
+                  value="?name="
+                >
+                  name
+                </option>
+                <option
+                  value="?region="
+                >
+                  region
+                </option>
+              </select>,
+              <input
+                className="query-search false"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="Search for a vineyard by name or region"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "data-input",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What would you like to search?",
+                "htmlFor": "main",
+              },
+              "ref": null,
+              "rendered": "What would you like to search?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="vineyards"
+                  >
+                    Vineyards
+                  </option>,
+                  <option
+                    value="wines"
+                  >
+                    Wines
+                  </option>,
+                ],
+                "className": "main-selector",
+                "id": "main",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vineyards",
+                    "value": "vineyards",
+                  },
+                  "ref": null,
+                  "rendered": "Vineyards",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wines",
+                    "value": "wines",
+                  },
+                  "ref": null,
+                  "rendered": "Wines",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Try using an ID from ",
+                  "1-30",
+                  " to get a specific record:",
+                ],
+                "htmlFor": "id",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Try using an ID from ",
+                "1-30",
+                " to get a specific record:",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "id",
+                "onChange": [Function],
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Or do you already know the vineyard you're looking for?",
+                "className": "false",
+                "htmlFor": "queryselect",
+              },
+              "ref": null,
+              "rendered": "Or do you already know the vineyard you're looking for?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value=""
+                  >
+                    --
+                  </option>,
+                  <option
+                    value="?name="
+                  >
+                    name
+                  </option>,
+                  <option
+                    value="?region="
+                  >
+                    region
+                  </option>,
+                ],
+                "className": "query-selector false",
+                "disabled": false,
+                "id": "queryselect",
+                "onChange": [Function],
+                "value": "name",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "--",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": "--",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "name",
+                    "value": "?name=",
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "region",
+                    "value": "?region=",
+                  },
+                  "ref": null,
+                  "rendered": "region",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "query-search false",
+                "disabled": false,
+                "onChange": [Function],
+                "placeholder": "Search for a vineyard by name or region",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                readOnly={true}
+                type="text"
+                value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/name"
+              />,
+              <button
+                className="false"
+              >
+                Test
+              </button>,
+              <p>
+                This may take a few moments, your data will be displayed below when finished.
+              </p>,
+            ],
+            "className": "submit-request",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "readOnly": true,
+                "type": "text",
+                "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/vineyards/name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+                "className": "false",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This may take a few moments, your data will be displayed below when finished.",
+              },
+              "ref": null,
+              "rendered": "This may take a few moments, your data will be displayed below when finished.",
+              "type": "p",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Output",
+          },
+          "ref": null,
+          "rendered": "Output",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "collapseStringsAfterLength": false,
+            "collapsed": false,
+            "defaultValue": null,
+            "displayDataTypes": true,
+            "displayObjectSize": true,
+            "enableClipboard": true,
+            "groupArraysAfterLength": 100,
+            "iconStyle": "triangle",
+            "indentWidth": 4,
+            "name": "root",
+            "onAdd": false,
+            "onDelete": false,
+            "onEdit": false,
+            "onSelect": false,
+            "shouldCollapse": false,
+            "sortKeys": false,
+            "src": Object {},
+            "style": Object {},
+            "theme": "rjv-default",
+            "validationMessage": "Validation Error",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`TestForm should match the snapshot with mainSelector wines 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TestForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Try Getting Data
+        </h2>,
+        <form
+          className="data-input"
+          onSubmit={[Function]}
+        >
+          <label
+            htmlFor="main"
+          >
+            What would you like to search?
+          </label>
+          <select
+            className="main-selector"
+            id="main"
+            onChange={[Function]}
+          >
+            <option
+              value="vineyards"
+            >
+              Vineyards
+            </option>
+            <option
+              value="wines"
+            >
+              Wines
+            </option>
+          </select>
+          <label
+            htmlFor="id"
+          >
+            Try using an ID from 
+            1-90
+             to get a specific record:
+          </label>
+          <input
+            id="id"
+            onChange={[Function]}
+            type="number"
+            value=""
+          />
+          <label
+            className="disabled"
+            htmlFor="queryselect"
+          >
+            Or do you already know the vineyard you're looking for?
+          </label>
+          <select
+            className="query-selector disabled"
+            disabled={true}
+            id="queryselect"
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              value=""
+            >
+              --
+            </option>
+            <option
+              value="?name="
+            >
+              name
+            </option>
+            <option
+              value="?region="
+            >
+              region
+            </option>
+          </select>
+          <input
+            className="query-search disabled"
+            disabled={true}
+            onChange={[Function]}
+            placeholder="Search for a vineyard by name or region"
+            type="text"
+            value=""
+          />
+        </form>,
+        <form
+          className="submit-request"
+          onSubmit={[Function]}
+        >
+          <input
+            readOnly={true}
+            type="text"
+            value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/wines/"
+          />
+          <button
+            className="false"
+          >
+            Test
+          </button>
+          <p>
+            This may take a few moments, your data will be displayed below when finished.
+          </p>
+        </form>,
+        <h3>
+          Output
+        </h3>,
+        <t
+          collapseStringsAfterLength={false}
+          collapsed={false}
+          defaultValue={null}
+          displayDataTypes={true}
+          displayObjectSize={true}
+          enableClipboard={true}
+          groupArraysAfterLength={100}
+          iconStyle="triangle"
+          indentWidth={4}
+          name="root"
+          onAdd={false}
+          onDelete={false}
+          onEdit={false}
+          onSelect={false}
+          shouldCollapse={false}
+          sortKeys={false}
+          src={Object {}}
+          style={Object {}}
+          theme="rjv-default"
+          validationMessage="Validation Error"
+        />,
+      ],
+      "className": "test-form-section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Try Getting Data",
+        },
+        "ref": null,
+        "rendered": "Try Getting Data",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>,
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>,
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-90
+               to get a specific record:
+            </label>,
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />,
+            <label
+              className="disabled"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>,
+            <select
+              className="query-selector disabled"
+              disabled={true}
+              id="queryselect"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>,
+            <input
+              className="query-search disabled"
+              disabled={true}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />,
+          ],
+          "className": "data-input",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What would you like to search?",
+              "htmlFor": "main",
+            },
+            "ref": null,
+            "rendered": "What would you like to search?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>,
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>,
+              ],
+              "className": "main-selector",
+              "id": "main",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vineyards",
+                  "value": "vineyards",
+                },
+                "ref": null,
+                "rendered": "Vineyards",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Wines",
+                  "value": "wines",
+                },
+                "ref": null,
+                "rendered": "Wines",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Try using an ID from ",
+                "1-90",
+                " to get a specific record:",
+              ],
+              "htmlFor": "id",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Try using an ID from ",
+              "1-90",
+              " to get a specific record:",
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "id",
+              "onChange": [Function],
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Or do you already know the vineyard you're looking for?",
+              "className": "disabled",
+              "htmlFor": "queryselect",
+            },
+            "ref": null,
+            "rendered": "Or do you already know the vineyard you're looking for?",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value=""
+                >
+                  --
+                </option>,
+                <option
+                  value="?name="
+                >
+                  name
+                </option>,
+                <option
+                  value="?region="
+                >
+                  region
+                </option>,
+              ],
+              "className": "query-selector disabled",
+              "disabled": true,
+              "id": "queryselect",
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "--",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": "--",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "name",
+                  "value": "?name=",
+                },
+                "ref": null,
+                "rendered": "name",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "region",
+                  "value": "?region=",
+                },
+                "ref": null,
+                "rendered": "region",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "query-search disabled",
+              "disabled": true,
+              "onChange": [Function],
+              "placeholder": "Search for a vineyard by name or region",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/wines/"
+            />,
+            <button
+              className="false"
+            >
+              Test
+            </button>,
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>,
+          ],
+          "className": "submit-request",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "readOnly": true,
+              "type": "text",
+              "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/wines/",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test",
+              "className": "false",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This may take a few moments, your data will be displayed below when finished.",
+            },
+            "ref": null,
+            "rendered": "This may take a few moments, your data will be displayed below when finished.",
+            "type": "p",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Output",
+        },
+        "ref": null,
+        "rendered": "Output",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "collapseStringsAfterLength": false,
+          "collapsed": false,
+          "defaultValue": null,
+          "displayDataTypes": true,
+          "displayObjectSize": true,
+          "enableClipboard": true,
+          "groupArraysAfterLength": 100,
+          "iconStyle": "triangle",
+          "indentWidth": 4,
+          "name": "root",
+          "onAdd": false,
+          "onDelete": false,
+          "onEdit": false,
+          "onSelect": false,
+          "shouldCollapse": false,
+          "sortKeys": false,
+          "src": Object {},
+          "style": Object {},
+          "theme": "rjv-default",
+          "validationMessage": "Validation Error",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Try Getting Data
+          </h2>,
+          <form
+            className="data-input"
+            onSubmit={[Function]}
+          >
+            <label
+              htmlFor="main"
+            >
+              What would you like to search?
+            </label>
+            <select
+              className="main-selector"
+              id="main"
+              onChange={[Function]}
+            >
+              <option
+                value="vineyards"
+              >
+                Vineyards
+              </option>
+              <option
+                value="wines"
+              >
+                Wines
+              </option>
+            </select>
+            <label
+              htmlFor="id"
+            >
+              Try using an ID from 
+              1-90
+               to get a specific record:
+            </label>
+            <input
+              id="id"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />
+            <label
+              className="disabled"
+              htmlFor="queryselect"
+            >
+              Or do you already know the vineyard you're looking for?
+            </label>
+            <select
+              className="query-selector disabled"
+              disabled={true}
+              id="queryselect"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                --
+              </option>
+              <option
+                value="?name="
+              >
+                name
+              </option>
+              <option
+                value="?region="
+              >
+                region
+              </option>
+            </select>
+            <input
+              className="query-search disabled"
+              disabled={true}
+              onChange={[Function]}
+              placeholder="Search for a vineyard by name or region"
+              type="text"
+              value=""
+            />
+          </form>,
+          <form
+            className="submit-request"
+            onSubmit={[Function]}
+          >
+            <input
+              readOnly={true}
+              type="text"
+              value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/wines/"
+            />
+            <button
+              className="false"
+            >
+              Test
+            </button>
+            <p>
+              This may take a few moments, your data will be displayed below when finished.
+            </p>
+          </form>,
+          <h3>
+            Output
+          </h3>,
+          <t
+            collapseStringsAfterLength={false}
+            collapsed={false}
+            defaultValue={null}
+            displayDataTypes={true}
+            displayObjectSize={true}
+            enableClipboard={true}
+            groupArraysAfterLength={100}
+            iconStyle="triangle"
+            indentWidth={4}
+            name="root"
+            onAdd={false}
+            onDelete={false}
+            onEdit={false}
+            onSelect={false}
+            shouldCollapse={false}
+            sortKeys={false}
+            src={Object {}}
+            style={Object {}}
+            theme="rjv-default"
+            validationMessage="Validation Error"
+          />,
+        ],
+        "className": "test-form-section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Try Getting Data",
+          },
+          "ref": null,
+          "rendered": "Try Getting Data",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="main"
+              >
+                What would you like to search?
+              </label>,
+              <select
+                className="main-selector"
+                id="main"
+                onChange={[Function]}
+              >
+                <option
+                  value="vineyards"
+                >
+                  Vineyards
+                </option>
+                <option
+                  value="wines"
+                >
+                  Wines
+                </option>
+              </select>,
+              <label
+                htmlFor="id"
+              >
+                Try using an ID from 
+                1-90
+                 to get a specific record:
+              </label>,
+              <input
+                id="id"
+                onChange={[Function]}
+                type="number"
+                value=""
+              />,
+              <label
+                className="disabled"
+                htmlFor="queryselect"
+              >
+                Or do you already know the vineyard you're looking for?
+              </label>,
+              <select
+                className="query-selector disabled"
+                disabled={true}
+                id="queryselect"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  --
+                </option>
+                <option
+                  value="?name="
+                >
+                  name
+                </option>
+                <option
+                  value="?region="
+                >
+                  region
+                </option>
+              </select>,
+              <input
+                className="query-search disabled"
+                disabled={true}
+                onChange={[Function]}
+                placeholder="Search for a vineyard by name or region"
+                type="text"
+                value=""
+              />,
+            ],
+            "className": "data-input",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What would you like to search?",
+                "htmlFor": "main",
+              },
+              "ref": null,
+              "rendered": "What would you like to search?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="vineyards"
+                  >
+                    Vineyards
+                  </option>,
+                  <option
+                    value="wines"
+                  >
+                    Wines
+                  </option>,
+                ],
+                "className": "main-selector",
+                "id": "main",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vineyards",
+                    "value": "vineyards",
+                  },
+                  "ref": null,
+                  "rendered": "Vineyards",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wines",
+                    "value": "wines",
+                  },
+                  "ref": null,
+                  "rendered": "Wines",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Try using an ID from ",
+                  "1-90",
+                  " to get a specific record:",
+                ],
+                "htmlFor": "id",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Try using an ID from ",
+                "1-90",
+                " to get a specific record:",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "id",
+                "onChange": [Function],
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Or do you already know the vineyard you're looking for?",
+                "className": "disabled",
+                "htmlFor": "queryselect",
+              },
+              "ref": null,
+              "rendered": "Or do you already know the vineyard you're looking for?",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value=""
+                  >
+                    --
+                  </option>,
+                  <option
+                    value="?name="
+                  >
+                    name
+                  </option>,
+                  <option
+                    value="?region="
+                  >
+                    region
+                  </option>,
+                ],
+                "className": "query-selector disabled",
+                "disabled": true,
+                "id": "queryselect",
+                "onChange": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "--",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": "--",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "name",
+                    "value": "?name=",
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "region",
+                    "value": "?region=",
+                  },
+                  "ref": null,
+                  "rendered": "region",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "query-search disabled",
+                "disabled": true,
+                "onChange": [Function],
+                "placeholder": "Search for a vineyard by name or region",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                readOnly={true}
+                type="text"
+                value="https://buildyourownbackendcodysara.herokuapp.com/api/v1/wines/"
+              />,
+              <button
+                className="false"
+              >
+                Test
+              </button>,
+              <p>
+                This may take a few moments, your data will be displayed below when finished.
+              </p>,
+            ],
+            "className": "submit-request",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "readOnly": true,
+                "type": "text",
+                "value": "https://buildyourownbackendcodysara.herokuapp.com/api/v1/wines/",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+                "className": "false",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This may take a few moments, your data will be displayed below when finished.",
+              },
+              "ref": null,
+              "rendered": "This may take a few moments, your data will be displayed below when finished.",
+              "type": "p",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Output",
+          },
+          "ref": null,
+          "rendered": "Output",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "collapseStringsAfterLength": false,
+            "collapsed": false,
+            "defaultValue": null,
+            "displayDataTypes": true,
+            "displayObjectSize": true,
+            "enableClipboard": true,
+            "groupArraysAfterLength": 100,
+            "iconStyle": "triangle",
+            "indentWidth": 4,
+            "name": "root",
+            "onAdd": false,
+            "onDelete": false,
+            "onEdit": false,
+            "onSelect": false,
+            "shouldCollapse": false,
+            "sortKeys": false,
+            "src": Object {},
+            "style": Object {},
+            "theme": "rjv-default",
+            "validationMessage": "Validation Error",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

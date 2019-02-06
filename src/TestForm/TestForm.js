@@ -94,7 +94,7 @@ export default class TestForm extends Component {
           </select>
           <input
             type="text"
-            className={`${isDisabled && 'disabled'}`}
+            className={`query-search ${isDisabled && 'disabled'}`}
             placeholder="Search for a vineyard by name or region"
             value={querySearch}
             disabled={isDisabled}
